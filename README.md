@@ -59,7 +59,7 @@ Learn to use help effectively and understand some patterns, as arbitrarily demon
     :h i_ctrl-o
     :h 'textwidth'
 
-A bit part of the OWTA-way is to become aware of your surroundings.
+A big part of the OWTA-way is to become aware of your surroundings.
 Imagine being dropped inside a (n)vim with perhaps a zillion plugins and scripts active.
 How can you possibly know what functionality is available?
 These internal commands might be worth trying and reading help about:
@@ -109,9 +109,9 @@ Finally, here's a possible exploration-path that can provide you with some inter
 - enter insert mode (`i`)
 - use `CTRL-R =` to write the expression to insert the runtimepath into the buffer: `&runtimepath`
 - use a replacement to have each path on its own line: `:s/,/\r/g`
-- put the cursor on the front of each path and use `gf` to jump to the directory and explore with files with netrw, use `CTRL-O` to jump back
+- put the cursor on the front of each path and use `gf` to jump to the directory and explore the files and directories with netrw, use `CTRL-O` to jump back
 - alternatively, put the cursor on the end of a path and enter insert mode (`a`) and use file-completion: `ctrl-x ctrl-f`
-- the subdirectories from the standard runtime directory are all hints to features and command, such as
+- the subdirectories from the standard runtime directory can be considered hints to features and command, such as
     - `:h runtime`
     - `:h compiler`
     - `:h autoload`
